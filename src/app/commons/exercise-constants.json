@@ -1,0 +1,50 @@
+{
+    "pushups": [
+        "Pompes sur les poings",
+        "Pompes posées claquées",
+        "Pompes classiques",
+        "Pompes triangle"
+    ],
+    "punches": [
+        "Directs",
+        "Crochets",
+        "Uppercuts",
+        "Coudes latéraux"
+    ],
+    "abs": [
+        "Situps",
+        "Levers de jambe",
+        "Crunchs croisés",
+        "Crunchs"
+    ],
+    "kicks": [
+        "Jiteck",
+        "Nanteck",
+        "Juteck",
+        "Front Kick"
+    ],
+    "burpees": [
+        "Burpees reprise garde",
+        "Burpees Gauche droite",
+        "Burpees genoux poitrine",
+        "Burpees frog"
+    ],
+    "legs":[
+        "squats",
+        "Jumping jacks",
+        "sauts genoux poitrine",
+        "Lever de genoux"
+    ],
+    "shoulders":[
+        "Croisés jambe pivot",
+        "climbers",
+        "Pompes ATR mur",
+        "Croisés main pied"
+    ],
+    "pullups":[
+        "Traction prise dos",
+        "Traction prise biceps",
+        "Pied barre",
+        "Lever Genoux poitrine"
+    ]
+}
