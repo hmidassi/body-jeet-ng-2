@@ -3,10 +3,12 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { GenerateManualWorkoutComponent } from './generate-manual-workout/generate-manual-workout.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    GenerateManualWorkoutComponent
   ],
   imports: [
     BrowserModule,
