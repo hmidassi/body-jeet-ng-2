@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { FormBuilder,FormsModule,ReactiveFormsModule,FormGroup } from '@angular/forms';
+import data from '../commons/exercise-constants.json';
 
 @Component({
   selector: 'app-generate-manual-workout',
@@ -7,7 +9,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class GenerateManualWorkoutComponent implements OnInit {
 
-  constructor() { }
+  pushups:any=data.pushups;
+  constructor(public fb:FormBuilder) { }
+
+  exercisesForm = this.fb.group({
+    name: ['']
+  });
+
+  onSubmit() {
+    alert(JSON.stringify(this.exercisesForm.value))
+  };
 
   ngOnInit() {
   }

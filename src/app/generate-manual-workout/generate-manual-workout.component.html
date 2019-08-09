@@ -1,1 +1,18 @@
-<p>generate-manual-workout works!</p>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-xs-12">
+      <form [formGroup]="exercisesForm" (ngSubmit)="onSubmit()">
+        <div class="row">
+            <select formControlName="name">
+              <option disabled>Sélectionner type de pompes</option>
+              <option>Sélectionner type de pompes</option>
+              <option *ngFor="let pushup of pushups">{{pushup}}</option>
+            </select>
+          </div>
+          <div class="row">
+            <button>Commencer séance</button>
+          </div>
+      </form>
+    </div>
+  </div>
+</div>
