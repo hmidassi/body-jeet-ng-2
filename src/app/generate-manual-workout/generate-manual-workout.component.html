@@ -4,8 +4,7 @@
       <form [formGroup]="exercisesForm" (ngSubmit)="onSubmit()">
         <div class="row">
             <select formControlName="name">
-              <option disabled>Sélectionner type de pompes</option>
-              <option>Sélectionner type de pompes</option>
+              <option value="">Sélectionner type de pompes</option>
               <option *ngFor="let pushup of pushups">{{pushup}}</option>
             </select>
           </div>

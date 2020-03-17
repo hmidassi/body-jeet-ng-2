@@ -10,6 +10,9 @@ import data from '../commons/exercise-constants.json';
 export class GenerateManualWorkoutComponent implements OnInit {
 
   pushups:any=data.pushups;
+  punches:any=data.punches;
+  abs:any=data.abs;
+  kicks:any=data.kicks;
   constructor(public fb:FormBuilder) { }
 
   exercisesForm = this.fb.group({
